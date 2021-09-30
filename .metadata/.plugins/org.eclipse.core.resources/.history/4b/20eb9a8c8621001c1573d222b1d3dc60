@@ -1,0 +1,27 @@
+package com.joao.javaCaelum.exercicios;
+
+public class Fatorial {
+
+	public static void main(String[] args) {
+		/*
+		 * int fatorial = 1; //Inicio da conta. int numeroDeIteracao = 5; //Quantidade
+		 * de iteração que pode ser alterada pelo usuário
+		 * 
+		 * //contador é contagem de multiplicação que vai diminuindo for (int contador =
+		 * 1; contador <= numeroDeIteracao; contador++) { fatorial = fatorial *
+		 * contador; System.out.println("Iteração " + contador + " é igual a " +
+		 * fatorial); }
+		 */
+
+		int fatorial = 1;
+		int numeroDeIteracao = 10;
+		int contador = 1;
+
+		while (contador <= numeroDeIteracao) {
+
+			System.out.println("número de Iteração: " + contador + "Fatorial: " + fatorial);
+			fatorial *= contador;
+			contador++;
+		}
+	}
+}
