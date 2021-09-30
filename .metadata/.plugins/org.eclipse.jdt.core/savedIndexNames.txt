@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\joaum\workspace\java-orientacao-objeto-caelum\.metadata\.plugins\org.eclipse.jdt.core
-386771091.index
-622161440.index
