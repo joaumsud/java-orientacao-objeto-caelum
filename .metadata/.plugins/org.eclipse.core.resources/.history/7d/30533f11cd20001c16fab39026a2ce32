@@ -1,0 +1,18 @@
+package com.joao.javaCaelum.exercicios;
+
+public class soma1000 {
+	public static void main(String[] args) {
+
+		int contador = 1;
+		
+		while (contador <= 50) {
+			 
+			int i;
+		for (i = 1; i <= 15; i++) {		
+				System.out.println(i + "Valor sequencial: " + contador);
+				contador = contador + i;
+			}
+		
+		}
+	}
+}

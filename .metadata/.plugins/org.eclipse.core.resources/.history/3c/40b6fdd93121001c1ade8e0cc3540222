@@ -1,0 +1,19 @@
+package com.joao.javaCaelum.exercicios;
+
+public class Fatorial {
+
+	public static void main(String[] args) {
+		
+		int numero = 0;
+		int fator = 1;
+		int fatorial = 1;
+		
+		while(numero < 10) {
+			fatorial *= fatorial * fator;
+			numero++;
+		}
+		
+
+	}
+
+}
